@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    height: 100vh;
+    max-width: 1080px;
+    min-width: 480px;
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'nav main';
+    grid-template-rows: 50px auto;
+    grid-template-columns: 10% auto;
+    justify-items: start;
+}
+
+.header {
+    grid-area: header;
+    align-self: center;
+    justify-self: center;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main
+}
+
+.mainInformation {
+    display: grid;
+    grid-template-areas:
+    'authorPhoto name'
+    'authorPhoto contacts';
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 20% auto;
+    gap: 10px;
+}
+
+.authorPhoto {
+    grid-area: authorPhoto;
+    display: block;
+    width: 100%;
+    min-width: 120px;
+}
+
+.name {
+    grid-area: name;
+}
+
+.contacts {
+    grid-area: contacts;
+}
