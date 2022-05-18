@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    margin: auto;
+    max-width: 1080px;
+}

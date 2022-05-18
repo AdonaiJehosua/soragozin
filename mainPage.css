@@ -1,11 +1,4 @@
-* {
-	box-sizing: border-box;
-}
-
 body {
-    padding: 10px;
-    margin: auto;
-    max-width: 1080px;
     display: grid;
     grid-template-areas:
     'header'
