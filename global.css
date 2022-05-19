@@ -6,4 +6,5 @@ body {
     padding: 10px;
     margin: auto;
     max-width: 1080px;
+    background: linear-gradient(to bottom right, #FFBC00, #BF9A30, #A67A00);
 }
