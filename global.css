@@ -8,3 +8,16 @@ body {
     max-width: 1080px;
     background: linear-gradient(to bottom right, #FFBC00, #BF9A30, #A67A00);
 }
+
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    color: #808080
+}
+
+a:visited {
+    color: #ffffff
+}
