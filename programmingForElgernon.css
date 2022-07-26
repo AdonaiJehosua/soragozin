@@ -61,3 +61,7 @@ h2 {
     box-shadow: 4px 4px 4px 0 #ffc359;
 }
 
+.pfeImage {
+    max-width: 800px;
+}
+
